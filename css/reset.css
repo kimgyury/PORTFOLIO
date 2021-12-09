@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* reset */
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, input, textarea, blockquote, th, td {margin:0; padding:0 }
+h1, h2, h3, h4, h5, h6 { font-size:14px; font-weight:normal; } 
+body, h1, h2, h3, h4, h5, h6, th, td, input { font-family:'NanumSquareR','돋움'; color:#333; font-size:16px; font-weight:normal; } 
+a { color:#262626; text-decoration:none; }  
+a:hover { text-decoration:none; } 
+ul, li, ol { list-style:none; }
+img { border:0; vertical-align:baseline; } 
+i, em { font-style:normal; }
+b { font-weight:normal; }
+button:active, button:focus { outline: none; }
+input, input:focus { box-shadow:none;}
+
+
+/* 웹 폰트 */
+
+@font-face {
+	font-family: NanumSquareB;
+	src:url('../font/NanumSquareB.eot');
+	src:url('../font/NanumSquareB.woff') format('woff');
+} 
+@font-face {
+	font-family: NanumSquareR;
+	src:url('../font/NanumSquareR.eot');
+	src:url('../font/NanumSquareR.woff') format('woff');
+} 
+@font-face {
+  font-family: NotoSansBold;
+	src:url('http://dothome.co.kr/expirationinfo/404.html');
+	src:url('http://dothome.co.kr/expirationinfo/404.html') format('woff');
+}
+@font-face {
+  font-family: NotoSansMedium;
+	src:url('../font/NotoSansKR-Medium.otf.eot');
+	src:url('../font/NotoSansKR-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: NotoSansRegular;
+	src:url('../font/NotoSansKR-Regular.otf.eot');
+	src:url('../font/NotoSansKR-Regular.woff') format('woff');
+}
+
