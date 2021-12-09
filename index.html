@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ko">
+
+<!-- Mirrored from www.dolseok.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Apr 2018 08:03:02 GMT -->
+<head>
+ <meta charset="UTF-8">
+ <!-- CSS -->
+ <link rel="stylesheet" type="text/css" href="css/reset.css" />
+ <link rel="stylesheet" type="text/css" href="css/style.css" />
+ <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+ <!--파비콘-->
+ <link rel="shortcut icon" href="img/favicon.ico" /> 
+
+ <!-- script -->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/jquery-ui.min.js"></script>
+ <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+ <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+ <script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+			sectionsColor: ['#d9f9fb','#ffffff', '#ffffff', '#FFFFFF'],
+			navigation: true,
+			slidenav: '#slidenav',
+			category: '#category',
+			menu: '#menu',
+			navigationPosition: 'right',
+			navigationTooltips: ['HOME', 'WORKS', 'ABOUT' , 'CONTACT']
+		});
+	});
+ </script>
+
+<title>Kim gyury Portfolio</title>
+</head>
+
+<body>   
+
+<div id="header">
+	<div id="header-con">
+    	<a id="home-link" href="#">
+        	<h1 id="seok-logo">
+            	<img src="img/logo.png" alt="김규리 포트폴리오">
+            </h1>
+        </a>
+        <ul id="menu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Welcome Home</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Works</a></li>
+            <li data-menuanchor="3rdPage"><a href="#3rdPage">About</a></li>
+            <li data-menuanchor="4thPage"><a href="#4thPage">Contact</a></li>
+        </ul>  
+        <div id="ham-menu"> 
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+    </div>
+</div><!-- header End -->
+
+<div id="footer">
+	<ul id="category">
+    	<li data-category="firstPage" class="copyright"></li>
+        <li data-category="secondPage" class="gallery"><span class="num"><em>1</em> / 2</span></li>
+        <li data-category="3rdPage" class="copyright"></li>
+        <li data-category="4thPage" class="copyright">2021 © Designed & Published by Gyury</li>
+    </ul>
+</div> footer End 
+
+<div id="slide-nav" class="nav-active" >
+    <ul id="slidenav">
+        <li data-slidemenuanchor="firstPage"><a href="#firstPage">Home</a></li>
+        <li data-slidemenuanchor="secondPage"><a href="#secondPage">Works</a></li>
+        <li data-slidemenuanchor="3rdPage"><a href="#3rdPage">About</a></li>
+        <li data-slidemenuanchor="4thPage"><a href="#4thPage">Contact</a></li>
+    </ul>
+</div><!-- slide-nav End -->
+
+<div id="l-section"></div>
+<div id="r-section"></div>
+
+<div id="page">
+    <div id="page-con">
+        <div id="fullpage">
+        	<!-- Main Page -->
+            <div id="section0" class="section">
+                <div class="scene">
+                    <div class="parallax background layer layer1" data-depth="0.60"></div>
+                    <div class="parallax foreground layer layer2" data-depth="-0.60"></div>
+                </div>                
+                <div class="home-name"><img src="img/kgy_portfolio.png" ></div>
+                <div class="mouse-scroll">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Works Page -->
+            <div id="section1" class="section" >
+                <div class="slide active"  id="slide01">
+                    <div class="project" id="project01">   
+                        <div class="list-box">
+                            <span id="grid-vt1"></span> 
+                            <span id="grid-vt2"></span> 
+                            <span id="grid-hz1"></span>
+                            <span id="grid-hz2"></span> 
+                            <div class="works01 proj-li">
+                                <a href="https://kimgyury.github.io/lookgood/">
+                            	<span class="proj-tit">남현범</span>
+<!--                                <span class="proj-cate">Web</span>-->
+                                </a>
+                            </div>
+                            <div class="works02 proj-li">
+                                <a href="https://kimgyury.github.io/Kwangho_Lee">
+                                <span class="proj-tit">이광호</span>
+<!--                                <span class="proj-cate">Web</span>-->
+                                </a>
+                            </div>
+                            <div class="works03 proj-li" data-myorder="3">
+                                <a href="https://kimgyury.github.io/Josunhee">
+                                <span class="proj-tit">조선희</span>
+<!--                                <span class="proj-cate">Web</span>-->
+                                </a>
+                            </div>
+                            <div class="works04 proj-li">
+                                <a href="https://kimgyury.github.io/cocacola">
+                                <span class="proj-tit">코카콜라</span>
+<!--                                <span class="proj-cate">Web</span>-->
+                                </a>
+                            </div>
+                            <div class="works05 proj-li">
+                                <span class="proj-tit">Coming Soon</span>
+                            </div>
+                            <div class="works06 proj-li">
+                                <span class="proj-tit">Coming Soon</span>
+                            </div>
+                            <div class="works07 proj-li">
+                                <span class="proj-tit">Coming Soon</span>
+                            </div>
+                            <div class="works08 proj-li">
+                                <span class="proj-tit">Coming Soon</span>
+                            </div>
+                            <div class="works09 proj-li">
+                                 <span class="proj-tit">Coming Soon</span>
+                            </div>
+                        </div>
+                        <div class="view-box-wrap">
+                        	<div class="view-box"><img src="http://dothome.co.kr/expirationinfo/404.html" ></div>     
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+
+            <!-- About Page -->
+            <div id="section2" class="section">
+                <div class="about_con">
+                	<div class="about_li square" id="sq_1" >
+                        <div class="border-top"></div>
+                        <div class="border-right"></div>
+                        <div class="border-bottom"></div>
+                        <div class="border-left"></div>
+                        <span class="arrow up" id="arrowUp_1"></span>
+                        <span class="arrow down" id="arrowDw_1"></span>
+                        <div class="about_detail opac" id="txt_1">
+                            <p class="tit">이로운 <b>별</b>, 김<span class="ch_b">규리</span>(<span>奎利</span>)</p>
+                            <p class="comment"><b>Cover Letter</b> <br>급격하게 변화하는 디지털디자인 속에서<br>
+								여유와 신속함을 가진 디자이너라 자부 합니다.<br><br>
+								사내에서 모든 디자인을 담당한 경험은<br>타부서의 업무 프로세스를 이해하고 접근하며<br>
+								협동심과 커뮤니케이션이라는 역량을 높였습니다.<br>
+								
+								<br>또한 디지털디자인의 범주를 넘어 <br>래퍼런스,기획안,촬영 등을 진행하며 
+								<br>디자인이 접목되는 마케팅 영역을 <br>보다 유연하게 이해하게 되었습니다.<br><br>
+								
+								이미 정해진 룰 안에서의 디자인이라도<br>디자이너로서 보다 나은 결과물을 위하여<br>의견을 제시하며 소통하기 위해 노력합니다.<br><br>
+								<br><b>귀사에 이로운 별이 되겠습니다.</b><br></p>
+                        </div>                   
+                    </div>  
+                	<div class="about_li middle square" id="sq_2" >
+                        <div class="border-top"></div>
+                        <div class="border-right"></div>
+                        <div class="border-bottom"></div>
+                        <div class="border-left"></div>
+                        <span class="arrow up" id="arrowUp_2"></span>
+                        <span class="arrow down" id="arrowDw_2"></span>
+                        <div class="about_detail opac" id="txt_2">
+                            <p class="tit"><b>이유</b>가 있는, <b>포인트</b>를 잡은</p>
+                            <p class="comment">일상생활 속에서 수많은 디자인을 접하지만 <br>눈길을 사로잡는 디자인을 만나기란 쉽지 않은 것 같습니다.<br><br>
+                            개인적인 경험을 바탕으로 생각해 보면,<br>
+                            오랫동안 기억되는 디자인은 소비자의 눈길을 사로잡는 포인트를 가지고 다가가는 것이라 생각합니다.<br><br>
+                            
+                            사람들의 마음을 움직이는 디자인은 단순히 제품을 표현하는 외형적 형상에만 그치는 것이 아니고, 전달하고자 하는 메세지 안에서 확실한 포인트를 잡고 다가갈 때. 마음속에 남고 긴 생명력을 갖게 되는 것 같습니다.<br><br>
+                            
+						    소비자 입장을 바탕으로 하여 보다 즐거운 디자인을 하고 싶습니다.<br>
+                            색상, 형태, 배치에도 선택의 이유가 있으며, 사람들로 하여금 쉽게 잊혀지지 않는 메세지를 전달하는 디자이너가 되기를 희망합니다.</p>
+                        </div>                      
+                    </div>
+                	<div class="about_li square" id="sq_3" >
+                        <div class="border-top"></div>
+                        <div class="border-right"></div>
+                        <div class="border-bottom"></div>
+                        <div class="border-left"></div>
+                        <span class="arrow up" id="arrowUp_3"></span>
+                        <span class="arrow down" id="arrowDw_3"></span>
+                    	<div class="about_detail opac" id="txt_3" >
+                            <p class="tit"><b>인터랙션 디자인</b> 설계가 가능한</p>
+                            <p class="comment">디자인이라는 요소를 넘어 소비자의 편안함에 다가갈 수 있도록 많은 이해도가 필요하다는 것을 느꼈습니다.<br><br>고등학교에서 html,css,jQuery을 익힌 기본 지식을 바탕으로 그린컴퓨터아카데미에서 웹퍼블리셔에 양성에 필요한 전문적 교육을 받았으며 웹 표준 및 웹 접근성에 준수한 html 문서작성 및 반응형 웹, css, jQuery, JavaScript 등 퍼블리싱에 필요한 지식을 배웠습니다.<br><br>
+						    근래의 디자인 트랜드는 동적인 모션에 대한 필요성을 증가시켰고, 기술적인 부분을 염두하여 디자인 설계를 해야하는 일들이 많아졌습니다. 또한 다양한 웹 기술의 환경은, 디자인과 코딩을 따로 분리해서 생각할 수 없게끔 만들었습니다.<br><br>해당 직군에서의 기술적 원리를 이해하고 인터랙션 디자인 설계를 할 수 있도록 노력하고자 합니다. </p>
+    					</div>
+                    </div>                                                            
+                </div>
+            	<div class="about_con">
+                	<div class="about_li ov" id="ov_1">
+                        <p class="about_tit ch">
+							이로운 <b>별</b>,<br>
+                            김<b>규리</b>(<span>奎利</span>)
+                        </p>                    
+                    </div>
+                    <div class="about_li ov middle" id="ov_2">
+                    	<p class="about_tit">
+                        	<b>이유</b>가 있는<br>
+                            <b>포인트</b>를 잡은<br>
+                            디자인
+                        </p>                   
+                    </div>
+                    <div class="about_li ov" id="ov_3">
+                     	<p class="about_tit">
+                        	<b>인터랙션</b><br>
+                            <b>디자인</b>설계가<br>
+                            가능한
+                        </p>                     
+                    </div>                
+                </div>
+            </div>            
+            <!-- Contact Page -->
+            <div id="section3" class="section">
+            	<div class="contact_con">
+                    <div  class="drop_area drop_area01">
+                        <img src="img/stone_dum.png" alt="" class="stone_dum" >
+                        <span class="drop_area02"></span><span class="drop_area03"></span>   
+                    </div>                
+                    <div class="icon_area">
+                        <p>Drag Icons on the water.</p>
+                        <img src="img/phone_ico.png" alt="" class="phone_icon"  >
+                        <img src="img/mail_ico.png" alt="" class="email_icon" id="email_icon " >                        
+<!--                        <a class="fb_link"><img src="img/fb_ico.png" alt="" class="fb_icon" ></a>-->
+
+                    </div>
+
+<!--
+                    <div class="mail_pop">
+                    	<div class="close_btn"><img src="img/btn_pop_close.png"></div>
+                        <div class="form_section">
+                            <div class="title">CONTACT ME</div>
+                            <form id="form" class="form" action="http://www.dolseok.com/mail.php" method="post">
+                                <p class="name_field">
+                                    <label for="name">Your Name:</label>
+                                    <input type="text" id="name" name="name"  class="name" />
+                                </p>
+                                <p class="email_field">
+                                    <label for="email">Your Email:</label>
+                                    <input type="email"  id="email" name="email" class="email" />
+                                </p>
+                                <p class="message_field">
+                                    <label for="message">Your Message:</label>
+                                    <textarea id="message" name="message" class="message"></textarea>
+                                </p>
+                                <p class="submit_field">
+                                    <button type="button" name="submit" id="submit" >
+                                        <div class="slide"></div>
+                                        <a href="#a">SEND</a>
+                                    </button>
+                                </p>
+                            </form>
+                        </div>                   	
+                    </div>                    	  <div class="mail_pop">
+                    	<div class="close_btn"><img src="img/btn_pop_close.png"></div>
+                        <div class="form_section">
+                            <div class="title">CONTACT ME</div>
+                            <form id="form" class="form" action="http://www.dolseok.com/mail.php" method="post">
+                                <p class="name_field">
+                                    <label for="name">Your Name:</label>
+                                    <input type="text" id="name" name="name"  class="name" />
+                                </p>
+                                <p class="email_field">
+                                    <label for="email">Your Email:</label>
+                                    <input type="email"  id="email" name="email" class="email" />
+                                </p>
+                                <p class="message_field">
+                                    <label for="message">Your Message:</label>
+                                    <textarea id="message" name="message" class="message"></textarea>
+                                </p>
+                                <p class="submit_field">
+                                    <button type="button" name="submit" id="submit" >
+                                        <div class="slide"></div>
+                                        <a href="#a">SEND</a>
+                                    </button>
+                                </p>
+                            </form>
+                        </div>                   	
+                    </div>                    	
+-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- page End -->
+
+
+ <script type="text/javascript" src="js/common.js"></script>
+</body>
+
+
+<!-- Mirrored from www.dolseok.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Apr 2018 08:03:18 GMT -->
+</html>
